@@ -40,7 +40,13 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
     }
-    
+	
+	* {
+		font-family: 'Roboto Mono', monospace;
+	}
+	h1 {
+		font-family: 'Chelsea Market', cursive;
+	}
     .plan{
         background-color: #FF764E;
     }
@@ -51,4 +57,26 @@ blockquote, q {
 
     .involved{
         background-color: #FFCD69;
-    }
+	}
+	img{
+		max-width:100%;
+	}
+
+
+	header{
+		width: 20%;
+		display: inline-block;
+	}
+
+	#fire{
+		width: 20%;
+		display: inline-block;
+	}
+	#truck{
+		width: 20%;
+		display: inline-block;
+	}
+	footer{
+		width: 20%;
+		display: inline-block;
+	}
